@@ -6,7 +6,7 @@ export default function Intro() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    if (window.location.pathname === '/') {
+    if (loading) {
       setLoading(true);
       setTimeout(() => {
         setLoading(false);
