@@ -1,8 +1,9 @@
+import Intro from './pages/Intro';
 function App() {
   return (
-    <div>
-      hello world
-    </div>
+    <>
+      <Intro />
+    </>
   );
 }
 export default App;
